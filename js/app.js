@@ -99,3 +99,26 @@ Further Features:
 3. Separate notes by user
 4. Sync and host to web server
 */
+
+
+// let search = document.getElementById('searchTxt');
+// search.addEventListener("input", function () {
+
+//   let inputVal = search.value.toLowerCase();
+//   // console.log('Input event fired!', inputVal);
+//   let noteCards = document.getElementsByClassName('noteCard');
+//   Array.from(noteCards).forEach(function (element) {
+//     let cardTxtT = element.getElementsByTagName("h5")[0].innerText;
+//     let cardTxtC = element.getElementsByTagName("p")[0].innerText;
+//     if (cardTxtT.includes(inputVal)) {
+//       element.style.display = "block";
+//     }
+//     else if (cardTxtC.includes(inputVal)) {
+//       element.style.display = "block";
+//     }
+//     else {
+//       element.style.display = "none";
+//     }
+//     // console.log(cardTxt);
+//   })
+// })
